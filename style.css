@@ -1,0 +1,67 @@
+html {
+  font-size: 100%;
+}
+
+* {
+	background-color: #cceeff;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Unna', serif;
+}
+
+.container {
+	display: grid;
+	width: 100vw;
+	justify-items: center;
+	align-items: center;
+}
+
+.top-content {
+	display: grid;
+	height: 100vh;
+	align-content: center;
+}
+
+.portfolio {
+	display: grid;
+	height: 100vh;
+	align-content: center;
+	padding: 2vw 10vw 2vw 10vw;
+}
+
+h1 {
+	font-size: calc(2em + 3vw);
+}
+
+h2 {
+	font-size: calc(1em + 2vw);
+	padding: 3vw 0 1.5vw 0;
+}
+p {
+	font-size: calc(1em + 0.5vw);
+	padding: 1.5vw 0px 1.5vw 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	transition: color 2s;
+}
+
+a:hover {
+	color: #aa3333;
+}
+
+@media (pointer: coarse) {
+	h1 {
+	font-size: 9vw;
+}
+
+p {
+	font-size: 6vw;
+}
+}
