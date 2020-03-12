@@ -61,6 +61,10 @@ a:hover {
 	font-size: 9vw;
 }
 
+	h2 {
+		font-size: calc(3em + 2vw);
+	}
+
 p {
 	font-size: 6vw;
 }
